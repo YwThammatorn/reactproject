@@ -1,0 +1,10 @@
+.orderlist-div{
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left:20px;
+}
+
+.order-button-list{
+    display:grid;
+    grid-template-columns: 100px 100px;
+}

@@ -1,0 +1,47 @@
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #9b4f11;
+  }
+  
+  .navbar li {
+    float: left;
+  }
+  
+  .navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  .navbar li a:hover{
+    color: paleturquoise;
+  }
+
+  .right-li{
+    float:right;
+    padding-right: 110px;
+  }
+
+  .cart-div{
+    position: relative;
+  }
+
+  .cart-number{
+    position: absolute;
+    bottom: 18px;
+    left: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: red;
+    width:16px;
+    height:16px;
+    border-radius:2.0rem;
+  }
+
+
+

@@ -1,0 +1,22 @@
+.layout-div{
+    position: static;
+}
+
+.searchbar-layout-div{
+    position: fixed;
+    left:950px;
+    top:0px;
+    width:fit-content;
+}
+
+.navbar-layout-div{
+    position: fixed;
+    top:0px;
+    width:100vw;
+}
+
+.outlet-layout-div{
+    position: static;
+    width:100vw;
+    margin-top:53px;
+}

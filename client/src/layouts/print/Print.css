@@ -1,0 +1,86 @@
+/* @page{
+    size: A6;
+    margin:0;
+}
+
+html,
+body {
+    width: 80mm;
+    height: 100mm;
+    margin: 0;
+    padding: 0;
+    background-color: gainsboro;
+}
+
+body{
+    background-color: burlywood;
+} */
+
+#card-print-div{
+    width:80mm;
+    height:auto;
+    background-color: gainsboro;
+    text-align: center;
+    font-family:'Helvetica';
+    margin:0
+}
+
+#printid{
+    font-weight: bold;
+    margin: 0;
+}
+
+#header{
+    display: grid;
+    grid-template-columns: auto auto;
+    height:38px;
+}
+
+#left-header{
+    font-size: 34px;
+}
+
+#right-header{
+    display: grid;
+    grid-template-rows: auto auto;
+    text-align: left;
+    font-size: 12px;
+    padding-left: 50px;
+}
+
+#title{
+    margin-top: 0px;
+    padding-top: 10px;
+    color:brown;
+}
+
+#printdate{
+    margin: 0;
+    padding: 0;
+}
+
+#printtime{
+    margin: 0;
+    padding: 0;
+}
+
+#script{
+    font-size: 14px;
+    margin-top: 0px;
+    color:brown;
+}
+
+#printorder{
+    width:276px;
+}
+
+#img{
+    height:100px;
+    width:100px;
+    padding-bottom: 10px;
+}
+
+#printname{
+    margin-top: 30px;
+    font-family: Times;
+}

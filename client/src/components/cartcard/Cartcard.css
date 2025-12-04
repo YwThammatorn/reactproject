@@ -1,0 +1,11 @@
+.card-div{
+    display: grid;
+    padding: 10px;
+    grid-template-columns:100px 160px 300px 200px 100px 100px 100px 100px 100px;
+}
+
+.cart-button{
+    width:80px;
+    height:30px;
+    margin-top: 20px;
+}
